@@ -70,7 +70,13 @@ PrefabInstance:
     - target: {fileID: 8920165395255160117, guid: 9246c3d2b1daeae4590b92267cb795be,
         type: 3}
       propertyPath: m_Name
-      value: Cube (2)
+      value: Head
       objectReference: {fileID: 0}
+    - target: {fileID: 8920165395255160119, guid: 9246c3d2b1daeae4590b92267cb795be,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: bf96d3e234c9fab4d85654f53883109f,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9246c3d2b1daeae4590b92267cb795be, type: 3}
