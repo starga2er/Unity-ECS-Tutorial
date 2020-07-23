@@ -2,15 +2,15 @@
 
 public class TankMovement : MonoBehaviour
 {
-    public int m_PlayerNumber = 1;         
-    public float m_Speed = 12f;            
-    public float m_TurnSpeed = 180f;       
-    public AudioSource m_MovementAudio;    
-    public AudioClip m_EngineIdling;       
-    public AudioClip m_EngineDriving;      
+    public int m_PlayerNumber = 1;         // 플레이어 ID
+    public float m_Speed = 12f;           // 탱크 전진 속도 
+    public float m_TurnSpeed = 180f;       // 탱크 회전 속도
+    public AudioSource m_MovementAudio;    // 아래 소리를 컨트롤할 소리 박스
+    public AudioClip m_EngineIdling;       // 탱크가 가만이 있는 소리
+    public AudioClip m_EngineDriving;      // 탱크의 움직이는 소리
     public float m_PitchRange = 0.2f;
 
-    /*
+    
     private string m_MovementAxisName;     
     private string m_TurnAxisName;         
     private Rigidbody m_Rigidbody;         
@@ -46,11 +46,12 @@ public class TankMovement : MonoBehaviour
 
         m_OriginalPitch = m_MovementAudio.pitch;
     }
-    */
+    
 
     private void Update()
     {
         // Store the player's input and make sure the audio for the engine is playing.
+
     }
 
 
